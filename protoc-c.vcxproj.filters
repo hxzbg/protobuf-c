@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="protoc-c\c_bytes_field.cc" />
+    <ClCompile Include="protoc-c\c_enum.cc" />
+    <ClCompile Include="protoc-c\c_enum_field.cc" />
+    <ClCompile Include="protoc-c\c_extension.cc" />
+    <ClCompile Include="protoc-c\c_field.cc" />
+    <ClCompile Include="protoc-c\c_file.cc" />
+    <ClCompile Include="protoc-c\c_generator.cc" />
+    <ClCompile Include="protoc-c\c_helpers.cc" />
+    <ClCompile Include="protoc-c\c_message.cc" />
+    <ClCompile Include="protoc-c\c_message_field.cc" />
+    <ClCompile Include="protoc-c\c_primitive_field.cc" />
+    <ClCompile Include="protoc-c\c_service.cc" />
+    <ClCompile Include="protoc-c\c_string_field.cc" />
+    <ClCompile Include="protoc-c\main.cc" />
+    <ClCompile Include="protoc-c\protobuf-c.pb.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="protoc-c\c_bytes_field.h" />
+    <ClInclude Include="protoc-c\c_enum.h" />
+    <ClInclude Include="protoc-c\c_enum_field.h" />
+    <ClInclude Include="protoc-c\c_extension.h" />
+    <ClInclude Include="protoc-c\c_field.h" />
+    <ClInclude Include="protoc-c\c_file.h" />
+    <ClInclude Include="protoc-c\c_generator.h" />
+    <ClInclude Include="protoc-c\c_helpers.h" />
+    <ClInclude Include="protoc-c\c_message.h" />
+    <ClInclude Include="protoc-c\c_message_field.h" />
+    <ClInclude Include="protoc-c\c_primitive_field.h" />
+    <ClInclude Include="protoc-c\c_service.h" />
+    <ClInclude Include="protoc-c\c_string_field.h" />
+    <ClInclude Include="protoc-c\protobuf-c.pb.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="protobuf-c.lib" />
+    <Library Include="libprotobuf.lib" />
+    <Library Include="libprotoc.lib" />
+  </ItemGroup>
+</Project>
