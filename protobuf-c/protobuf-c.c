@@ -180,9 +180,9 @@ do_free(ProtobufCAllocator *allocator, void *data)
  * function.
  */
 static ProtobufCAllocator protobuf_c__allocator = {
-	.alloc = &system_alloc,
-	.free = &system_free,
-	.allocator_data = NULL,
+	&system_alloc,
+	&system_free,
+	NULL,
 };
 
 /* === buffer-simple === */
